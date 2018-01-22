@@ -270,7 +270,11 @@ color: #fff;
 /* Services
 ---------------------------------*/
 
-.service-list{
+.servicesMain {
+	background-color: #F3F3F4;
+}
+
+.service-list {
 	padding:0 0 0 0;
 	font-size:14px;
 	margin-bottom:40px;
@@ -569,9 +573,9 @@ border: 2px solid #fff;
 	
 }
 .team-leader-shadow{
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
+	transition:all 1.0s ease-in-out;
+	-moz-transition:all  1.0s ease-in-out;
+	-webkit-transition:all  1.0s ease-in-out;
 	border-radius:50%;
 	position:absolute;
 	width:100%;
@@ -585,7 +589,7 @@ border: 2px solid #fff;
 	height:100%;
 }
 .team-leader:hover .team-leader-shadow{
-	box-shadow:inset  0px 0px 0px 148px rgba(17,17,17,0.80);
+	box-shadow:inset  0px 0px 0px 148px rgba(250,250,250,0.4);
 }
 .team-leader:hover ul{ display:block; opacity:1}
 .team-leader img{

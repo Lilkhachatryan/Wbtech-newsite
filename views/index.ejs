@@ -39,7 +39,7 @@
 	<script type="text/javascript" src="js/classie.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/canvas.js"></script>
-
+	<script type="text/javascript" src="js/animprint.js"></script>
 
 	<!-- =======================================================
     Theme Name: Knight
@@ -91,7 +91,7 @@
 
 
 
-	<section class="main-section" id="service">
+	<section class="main-section servicesMain" id="service">
 		<!--main-section-start-->
 		<div class="container">
 			<h2>Services</h2>
@@ -143,52 +143,6 @@
 		</div>
 	</section>
 	<!--main-section-end-->
-
-
-	<section class="main-section alabaster">
-		<!--main-section alabaster-start-->
-		<div class="container">
-			<div class="row">
-				<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-					<img src="img/iphone.png" alt="">
-				</figure>
-				<div class="col-lg-7 col-sm-8 featured-work">
-					<h2>featured work</h2>
-					<P class="padding-b">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</P>
-					<div class="featured-box">
-						<div class="featured-box-col1 wow fadeInRight delay-02s">
-							<i class="fa-magic"></i>
-						</div>
-						<div class="featured-box-col2 wow fadeInRight delay-02s">
-							<h3>magic of theme development</h3>
-							<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
-						</div>
-					</div>
-					<div class="featured-box">
-						<div class="featured-box-col1 wow fadeInRight delay-04s">
-							<i class="fa-gift"></i>
-						</div>
-						<div class="featured-box-col2 wow fadeInRight delay-04s">
-							<h3>neatly packaged</h3>
-							<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
-						</div>
-					</div>
-					<div class="featured-box">
-						<div class="featured-box-col1 wow fadeInRight delay-06s">
-							<i class="fa-dashboard"></i>
-						</div>
-						<div class="featured-box-col2 wow fadeInRight delay-06s">
-							<h3>SEO optimized</h3>
-							<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. </p>
-						</div>
-					</div>
-					<a class="Learn-More" href="#">Learn More</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--main-section alabaster-end-->
-
 
 
 	<section class="main-section paddind" id="Portfolio">
@@ -296,7 +250,7 @@
 					</div>
 					<h3 class="wow fadeInDown delay-03s">Walter White</h3>
 					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-					<p class="wow fadeInDown delay-03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+					<p class="wow fadeInDown delay-03s" id="typeWalter"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader  wow fadeInDown delay-06s">
@@ -311,7 +265,7 @@
 					</div>
 					<h3 class="wow fadeInDown delay-06s">Jesse Pinkman</h3>
 					<span class="wow fadeInDown delay-06s">Product Manager</span>
-					<p class="wow fadeInDown delay-06s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+					<p class="wow fadeInDown delay-06s" id="typeJesse"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-09s">
@@ -326,7 +280,7 @@
 					</div>
 					<h3 class="wow fadeInDown delay-09s">Skyler white</h3>
 					<span class="wow fadeInDown delay-09s">Accountant</span>
-					<p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+					<p class="wow fadeInDown delay-09s" id="typeSkyler"></p>
 				</div>
 			</div>
 		</div>
@@ -383,25 +337,17 @@
 	<!-- funfact Section End-->
 
 
-	<section class="business-talking">
-		<!--business-talking-start-->
+	<!--<section class="business-talking">
+		business-talking-start
 		<div class="container">
 			<h2>Let’s Talk Developing.</h2>
 		</div>
 	</section>
-	<!--business-talking-end-->
-	<div class="container">
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-		<div style="overflow:hidden;height:250px;width:100%;">
-			<div id="gmap_canvas" style="height:250px;width:100%;">
-				<!--<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>-->
-				<a class="google-map-code" href="http://www.zahnarzt-rosenheim.org" id="get-map-data">WebTech Systems</a>
-			</div>
-		</div>
-		<script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(40.151256,44.50147830000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>WebTech Systems</b><br/>Garegin Njdeh 46<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-	</div>
+	business-talking-end-->
+  <div class="container">
 		<section class="main-section contact" id="contact">
-
+			<h2>Contacts</h2>
+			<h6></h6>
 			<div class="row">
 				<div class="col-lg-6 col-sm-7 wow fadeInLeft">
 					<div class="contact-info-box address clearfix">
@@ -429,11 +375,9 @@
 					</ul>
 				</div>
 				<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
-					<div class="form">
 
 						<div id="sendmessage">Your message has been sent. Thank you!</div>
 						<div id="errormessage"></div>
-						<form action="" method="post" role="form" class="contactForm">
 							<div class="form-group">
 								<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
 								<div class="validation"></div>
@@ -451,13 +395,24 @@
 								<div class="validation"></div>
 							</div>
 
-							<div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
-						</form>
+							<div class="text-center"><button class="input-btn">Send Message</button></div>
+						
 					</div>
 				</div>
 			</div>
 		</section>
 
+	</div>
+
+	<div class="container-fluid">
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<div style="overflow:hidden;height:300px;width:100%;">
+			<div id="gmap_canvas" style="height:300px;width:100%;">
+				<!--<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>-->
+				<a class="google-map-code" href="http://www.zahnarzt-rosenheim.org" id="get-map-data">WebTech Systems</a>
+			</div>
+		</div>
+		<script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(40.151256,44.50147830000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>WebTech Systems</b><br/>Garegin Njdeh 46<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 	</div>
 	<footer class="footer">
 		<div class="container">
@@ -486,13 +441,48 @@
 		
 
 		$(document).ready(function(e) {
+
+		 $('#typeWalter').typed({
+	    strings: [
+	    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat."
+	    ],
+	        typeSpeed: 50,
+	        backDelay: 1000,
+	        startDelay: 1200,
+	        loop: true,
+	        showCursor: false,
+	        loopCount: true       
+	    });
+
+		 $('#typeJesse').typed({
+	    strings: [
+	    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat."
+	    ],
+	        typeSpeed: 50,
+	        backDelay: 1000,
+	        startDelay: 1200,
+	        loop: true,
+	        showCursor: false, 
+	        loopCount: true       
+	    });
+
+		 $('#typeSkyler').typed({
+	    strings: [
+	    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat."
+	    ],
+	        typeSpeed: 50,
+	        backDelay: 1000,
+	        startDelay: 1200,
+	        loop: false,
+	        showCursor: false, 
+	        loopCount: true       
+	    });
 			
 
 			$('#test').scrollToFixed();
 			$('.res-nav_click').click(function() {
 				$('.main-nav').slideToggle();
-				return false
-
+				return false;
 			});
 
 			$(document).on('click', '[data-toggle="lightbox"]', function(event) {
