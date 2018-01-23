@@ -792,7 +792,8 @@ border: 2px solid #fff;
 
 .validation {
     color: red;
-    display:none;
+
+	visibility: hidden;
     margin: 0 0 20px;
     font-weight:400;
     font-size:13px;

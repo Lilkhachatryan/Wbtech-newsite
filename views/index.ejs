@@ -376,7 +376,7 @@
 				</div>
 				<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
 
-						<div id="sendmessage">Your message has been sent. Thank you!</div>
+
 						<div id="errormessage"></div>
 							<div class="form-group">
 								<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -391,12 +391,12 @@
 								<div class="validation"></div>
 							</div>
 							<div class="form-group">
-								<textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+								<textarea class="form-control input-text text-area" name="messageSend" id="messageSend" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
 								<div class="validation"></div>
 							</div>
+							<div id="displaymessage" style="display: none">Your message has been sent. Thank you!</div><br>
 
-							<div class="text-center"><button class="input-btn">Send Message</button></div>
-						
+							<div class="text-center"><button class="input-btn" id="send">Send Message</button></div>
 					</div>
 				</div>
 			</div>
@@ -441,6 +441,84 @@
 		
 
 		$(document).ready(function(e) {
+
+            $("#send").click(function(){
+                var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+
+                var name = $('#name');
+                var email = $('#email');
+                var subject = $('#subject');
+                var message = $('#messageSend');
+
+
+                if ( $("#displaymessage").css('display') == 'block' ){
+                    $("#displaymessage").css('display', 'none');
+                }
+
+
+				if(name.val() == ""){
+                    name.next().css('visibility', 'visible');
+                    name.next().html("The fild is require.");
+					name.parent().addClass( "has-error" )
+
+				} else {
+                    name.next().css('visibility', 'hidden');
+                    name.next().html("");
+                    name.parent().removeClass( "has-error" );
+				}
+				if(email.val() == ""){
+                    email.next().css('visibility', 'visible');
+                    email.next().html("The fild is require.");
+                    email.parent().addClass( "has-error" )
+
+                } else if( !emailReg.test(email.val() )){
+                    email.next().css('visibility', 'visible');
+                    email.next().html("This email not valid.");
+                    email.parent().addClass( "has-error" )
+				} else {
+                    email.next().css('visibility', 'hidden');
+                    email.next().html("");
+                    email.parent().removeClass( "has-error" );
+
+				}
+                if(subject.val() == ""){
+                    subject.next().css('visibility', 'visible');
+                    subject.next().html("The fild is require.");
+                    subject.parent().addClass( "has-error" )
+
+                } else{
+                    subject.next().css('visibility', 'hidden');
+                    subject.next().html("");
+                    subject.parent().removeClass( "has-error" );
+				}
+                if(message.val() == ""){
+                    message.next().css('visibility', 'visible');
+                    message.next().html("The fild is require.");
+                    message.parent().addClass( "has-error" )
+
+                } else {
+                    message.next().css('visibility', 'hidden');
+                    message.next().html("");
+                    message.parent().removeClass( "has-error" );
+				}
+
+				if(name.val() != "" && email.val() != "" && subject.val() != "" && message.val() != "" && emailReg.test(email.val())){
+
+
+                    if ( $("#displaymessage").css('display') == 'none' ){
+                        $("#displaymessage").css('display', 'block');
+
+                        $("#displaymessage").css('color', 'green');
+                    }
+
+                    name.val("");
+                    email.val("");
+                    subject.val("");
+                    message.val("");
+
+				}
+
+            });
 
 		 $('#typeWalter').typed({
 	    strings: [
