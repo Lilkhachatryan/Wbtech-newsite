@@ -6,8 +6,10 @@
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
 
 	<title>Homepage</title>
-	<link rel="icon" href="favicon.png" type="image/png">
-	<link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<link rel="shortcut icon" href="img/icon.png" type="img/png">
+
 
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
@@ -47,39 +49,50 @@
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
 	======================================================= -->
+	<script>
 
+	</script>
 </head>
 
 <body>
 	<!--<div class="se-pre-con"></div>-->
 	<header class="header" id="header">
 		<video autoplay muted loop id="myVideo" style="position: absolute; top: 0px; z-index: -1500; width: 100%">
-		  <source src="background-vids/Video.mp4" type="video/mp4">
+		  <source src="background-vids/b.mp4" type="video/mp4">
 		</video>
 		<!--header-start-->
 		<canvas width="100%" id="nokey" style="position: relative; top: 0px"></canvas>
-		<img class="mainLogo" src="img/rightLogo.png" width="300" height="200" />
+		<img class="mainLogo" src="img/origin-logo.png" width="300" height="200" />
 		<!--<div class="container" style="margin: auto; position: absolute; left: 0px;top: 0px; z-index: -1">-->
-			<figure class="logo animated fadeInDown delay-07s" >
-				<a href="#service" class="animated fadeInUp delay-1s servicelink"><img src="img/logosmart2.png" alt="" ></a>
-			</figure>
-			<h1 class="animated fadeInDown delay-07s" style="color: #000">Smart Corner</h1>
+			<!--<figure class="logo animated fadeInDown delay-07s" >-->
+				<!--<a href="#service" class="animated fadeInUp delay-1s servicelink"><img src="img/mainLogo.png" alt="" ></a>-->
+			<!--</figure>-->
+
 			<ul class="we-create animated fadeInUp delay-1s sss">
-				<li>We are a digital agency that loves crafting beautiful websites.</li>
+				<li><h3>Define the future</h3></li>
 			</ul>
-			<a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a>
+
 		<!--</div>-->
 	</header>
 	<!--header-end-->
 
-	<nav class="main-nav-outer" id="test" >
-		<!--main-nav-start-->
-		<div class="container">
-			<ul class="main-nav ">
+	<nav class="navbar navbar-default navbar-fixed-top  nav-colors" id="test" >
+		<!--main-nav-start    ///  navbar navbar-default navbar-fixed-top-->
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<figure class="logo animated fadeInDown delay-07s">
+					<a href="#service" class="animated fadeInUp delay-1s servicelink"><img src="img/mainLogo.png" alt="" ></a>
+				</figure>
+			</div>
+			<ul class="main-nav navbar-right ">
+
+
+				<!--<li class="small-logo"><a href="#header"><img src="img/origin-logo.png" alt="" height="100" width="200"></a></li>-->
 				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
 				<li><a href="#service">Services</a></li>
 				<li><a href="#Portfolio">Portfolio</a></li>
-				<li class="small-logo"><a href="#header"><img src="img/logosmart2.png" alt="" height="100" width="200"></a></li>
+
 				<li><a href="#client">Clients</a></li>
 				<li><a href="#team">Team</a></li>
 				<li><a href="#contact">Contact</a></li>
@@ -88,6 +101,35 @@
 		</div>
 	</nav>
 	<!--main-nav-end-->
+
+
+
+	<section class="main-section servicesMain" id="about">
+		<!--main-section-start-->
+		<div class="container text-center">
+			<h2>About</h2>
+			<h6>About company page</h6>
+			<div class="row">
+				<p>Smart Corner is a fast growing Web Development company based in Yerevan, Armenia.<br>
+					Smart Corner was founded in 2015 in  Armenia and has its branch in the USA, as well.
+					<br> The range of the services we offer include Website development, Web application development,
+					<br> Web design, Redesign, Maintenance,Web Hosting, Graphic Design, Logo Design, SEO.
+					<br> We work with both local business owners and international companies.
+
+					<br> <br> The most important things for us are high quality work, professional approach and desire
+					<br> to excel at
+					clients' expectations which always bring clients' satisfaction.</p>
+				<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+
+				</div>
+				<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+					<img src="img/macbook-pro.png" alt="">
+				</figure>
+
+			</div>
+		</div>
+	</section>
+	<!--main-section-end-->
 
 
 
@@ -100,38 +142,51 @@
 				<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
 					<div class="service-list">
 						<div class="service-list-col1">
-							<i class="fa-paw"></i>
+							<i class="fa-cogs"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>branding &amp; identity</h3>
-							<p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
+							<h3>web development</h3>
+							<p>Imagination and inspiration used to achieve perfection.</p>
 						</div>
 					</div>
 					<div class="service-list">
 						<div class="service-list-col1">
-							<i class="fa-gear"></i>
+							<i class="fa-edit"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>web development</h3>
-							<p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
+							<h3>web design</h3>
+							<p>We develop smart sites and applications. Our developers have deep skills in both front-end and back-end development to support the needs of our clients.</p>
 						</div>
 					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
 					<div class="service-list">
 						<div class="service-list-col1">
 							<i class="fa-apple"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>mobile design</h3>
-							<p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
+							<h3>mobile app development</h3>
+							<p>We offer IOS and Android app development.</p>
 						</div>
 					</div>
 					<div class="service-list">
 						<div class="service-list-col1">
-							<i class="fa-medkit"></i>
+							<i class="fa-bug"></i>
 						</div>
 						<div class="service-list-col2">
-							<h3>24/7 Support</h3>
-							<p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
+							<h3>QA & Testing</h3>
+							<p>Our Quality Assurance process ensures that your website meets the highest possible standards on all levels.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+					<div class="service-list">
+						<div class="service-list-col1">
+							<i class="fa-paw"></i>
+						</div>
+						<div class="service-list-col2">
+							<h3>branding &amp; identity</h3>
+							<p>Your brand intrigues the hearts and minds of consumers.</p>
 						</div>
 					</div>
 				</div>
@@ -202,34 +257,63 @@
 	<section class="main-section client-part" id="client">
 		<!--main-section client-part-start-->
 		<div class="container">
-			<b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
-			<div class="row">
-				<div class="col-lg-12">
-					<p class="client-part-haead wow fadeInDown delay-05">It was a pleasure to work with the guys at Knight Studio. They made sure we were well fed and drunk all the time!</p>
+			<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
+						<div class="row">
+							<div class="col-lg-12">
+								<p class="client-part-haead wow fadeInDown delay-05">"The bigger the dreams, the more we will achieve."</p>
+							</div>
+						</div>
+						<ul class="client wow fadeIn delay-05s">
+							<li><a href="#">
+									<span>Sasun Tamazyan</span>
+								</a></li>
+						</ul>
+					</div>
+					<div class="item">
+						<b class="quote-right"><i class="fa-quote-right"></i></b>
+						<div class="row">
+							<div class="col-lg-12">
+								<p class="client-part-haead ">"Work hard in silence, let your code be your noise."</p>
+							</div>
+						</div>
+						<ul class="client">
+							<li><a href="#">
+									<span>Julia Agajanyan</span>
+								</a></li>
+						</ul>
+					</div>
+					<div class="item">
+						<b class="quote-right"><i class="fa-quote-right"></i></b>
+						<div class="row">
+							<div class="col-lg-12">
+								<p class="client-part-haead">"Computers can solve only one problem: calculating. All the others are solved by a programmer."</p>
+							</div>
+						</div>
+						<ul class="client">
+							<li><a href="#">
+									<span>Hayk Atoyan</span>
+								</a></li>
+						</ul>
+					</div>
 				</div>
+
 			</div>
-			<ul class="client wow fadeIn delay-05s">
-				<li><a href="#">
-            	<img src="img/client-pic1.jpg" alt="">
-                <h3>James Bond</h3>
-                <span>License To Drink Inc.</span>
-            </a></li>
-			</ul>
 		</div>
+
 	</section>
 	<!--main-section client-part-end-->
-	<div class="c-logo-part">
-		<!--c-logo-part-start-->
-		<div class="container">
-			<ul>
-				<li><a href="#"><img src="img/c-liogo1.png" alt=""></a></li>
-				<li><a href="#"><img src="img/c-liogo2.png" alt=""></a></li>
-				<li><a href="#"><img src="img/c-liogo3.png" alt=""></a></li>
-				<li><a href="#"><img src="img/c-liogo4.png" alt=""></a></li>
-				<li><a href="#"><img src="img/c-liogo5.png" alt=""></a></li>
-			</ul>
-		</div>
-	</div>
+
 	<!--c-logo-part-end-->
 	<section class="main-section team" id="team">
 		<!--main-section team-start-->
@@ -239,139 +323,258 @@
 			<div class="team-leader-block clearfix">
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-03s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
+						<div class="team-leader-shadow shadowSasun"><a href="#"></a></div>
 						<img src="img/sas.jpg" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
 						</ul>
 					</div>
 					<h3 class="wow fadeInDown delay-03s">Sasun Tamazyan</h3>
-					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-					<p class="wow fadeInDown delay-03s" id="typeWalter"></p>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s typeP" id="typeSasun"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader  wow fadeInDown delay-06s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
+						<div class="team-leader-shadow shadowJulia"><a href="#"></a></div>
 						<img src="img/jul2.jpg" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
 						</ul>
 					</div>
 					<h3 class="wow fadeInDown delay-06s">Julia Aghajanyan</h3>
-					<span class="wow fadeInDown delay-06s">Product Manager</span>
-					<p class="wow fadeInDown delay-06s" id="typeJesse"></p>
-				</div>
-				<div class="team-leader-box">
-					<div class="team-leader wow fadeInDown delay-09s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="img/lil.jpg" alt="">
-						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
-						</ul>
-					</div>
-					<h3 class="wow fadeInDown delay-09s">Lilit Khachatryan</h3>
-					<span class="wow fadeInDown delay-09s">Accountant</span>
-					<p class="wow fadeInDown delay-09s" id="typeSkyler"></p>
+					<!--<span class="wow fadeInDown delay-06s">Product Manager</span>-->
+					<p class="wow fadeInDown delay-06s" id="typeJulia"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-03s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="img/har3.jpg" alt="">
+						<div class="team-leader-shadow shadowHayk"><a href="#"></a></div>
+						<img src="img/hayk.jpg" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-03s">Harut Tamazyan</h3>
-					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-					<p class="wow fadeInDown delay-03s" id="typeWalter"></p>
+					<h3 class="wow fadeInDown delay-03s">Hayk Atoyan</h3>
+					<p class="wow fadeInDown delay-03s" id="typeHayk"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-03s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
+						<div class="team-leader-shadow shadowSona"><a href="#"></a></div>
 						<img src="img/sona.jpg" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
 						</ul>
 					</div>
 					<h3 class="wow fadeInDown delay-03s">Sona Avagyan</h3>
-					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-					<p class="wow fadeInDown delay-03s" id="typeWalter"></p>
+					<p class="wow fadeInDown delay-03s" id="typeSona"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-03s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
+						<div class="team-leader-shadow shadowArayik"><a href="#"></a></div>
+						<img src="img/arayik.jpg" alt="">
+						<ul>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-03s">Arayik Mkhitaryan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Programmer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeArayik"></p>
+				</div>
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-03s">
+						<div class="team-leader-shadow shadowNelly"><a href="#"></a></div>
 						<img src="img/nel.jpg" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-03s">Nelly Bagdasaryan</h3>
-					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-					<p class="wow fadeInDown delay-03s" id="typeWalter"></p>
+					<h3 class="wow fadeInDown delay-03s">Nelly Baghdasaryan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeNelly"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-03s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="img/sas.jpg" alt="">
+						<div class="team-leader-shadow shadowYuri"><a href="#"></a></div>
+						<img src="img/yuri.jpg" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-03s">Sasun Tamazyan</h3>
-					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-					<p class="wow fadeInDown delay-03s" id="typeWalter"></p>
+					<h3 class="wow fadeInDown delay-03s">Yuri Baghdasaryn</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeYuri"></p>
+				</div>
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-09s">
+						<div class="team-leader-shadow shadowLilit"><a href="#"></a></div>
+						<img src="img/lil.jpg" alt="">
+						<ul>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-09s">Lilit Khachatryan</h3>
+					<!--<span class="wow fadeInDown delay-09s">Accountant</span>-->
+					<p class="wow fadeInDown delay-09s" id="typeLilit"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-03s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="img/sas.jpg" alt="">
+						<div class="team-leader-shadow shadowHarut"><a href="#"></a></div>
+						<img src="img/har-5.jpg" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-03s">Sasun Tamazyan</h3>
-					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-					<p class="wow fadeInDown delay-03s" id="typeWalter"></p>
+					<h3 class="wow fadeInDown delay-03s">Harut Tamazyan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeHarut"></p>
 				</div>
 				<div class="team-leader-box">
 					<div class="team-leader wow fadeInDown delay-03s">
-						<div class="team-leader-shadow"><a href="#"></a></div>
-						<img src="img/sas.jpg" alt="">
+						<div class="team-leader-shadow shadowElvira"><a href="#"></a></div>
+						<img src="img/elvira.jpg" alt="">
 						<ul>
-							<li><a href="#" class="fa-twitter"></a></li>
-							<li><a href="#" class="fa-facebook"></a></li>
-							<li><a href="#" class="fa-pinterest"></a></li>
-							<li><a href="#" class="fa-google-plus"></a></li>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
 						</ul>
 					</div>
-					<h3 class="wow fadeInDown delay-03s">Sasun Tamazyan</h3>
-					<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-					<p class="wow fadeInDown delay-03s" id="typeWalter"></p>
+					<h3 class="wow fadeInDown delay-03s">Elvira Manukyan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeElvira"></p>
 				</div>
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-03s">
+						<div class="team-leader-shadow shadowJora"><a href="#"></a></div>
+						<img src="img/jora.jpg" alt="">
+						<ul>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-03s">Jora Khachatryan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeJora"></p>
+				</div>
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-03s">
+						<div class="team-leader-shadow shadowHayk-3"><a href="#"></a></div>
+						<img src="img/hayk-3.jpg" alt="">
+						<ul>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-03s">Hayk Davtyan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeHayk-3"></p>
+				</div>
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-09s">
+						<div class="team-leader-shadow shadowStefany"><a href="#"></a></div>
+						<img src="img/stefany.jpg" alt="">
+						<ul>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-09s">Stefani Ghushchyan</h3>
+					<!--<span class="wow fadeInDown delay-09s">Accountant</span>-->
+					<p class="wow fadeInDown delay-09s" id="typeStefany"></p>
+				</div>
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-03s">
+						<div class="team-leader-shadow shadowGevorg"><a href="#"></a></div>
+						<img src="img/gevorg.jpg" alt="">
+						<ul>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-03s">Gevorg Igityan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeGevorg"></p>
+				</div>
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-03s">
+						<div class="team-leader-shadow shadowHayk-2"><a href="#"></a></div>
+						<img src="img/hayk-2.jpg" alt="">
+						<ul>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-03s">Hayk Sargsyan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeHayk-2"></p>
+				</div>
+				<!--<div class="team-leader-box">-->
+					<!--<div class="team-leader wow fadeInDown delay-03s">-->
+						<!--<div class="team-leader-shadow shadowEmil"><a href="#"></a></div>-->
+						<!--<img src="img/emil.jpg" alt="">-->
+						<!--<ul>-->
+							<!--&lt;!&ndash;<li><a href="#" class="fa-twitter"></a></li>&ndash;&gt;-->
+							<!--&lt;!&ndash;<li><a href="#" class="fa-facebook"></a></li>&ndash;&gt;-->
+							<!--&lt;!&ndash;<li><a href="#" class="fa-pinterest"></a></li>&ndash;&gt;-->
+							<!--&lt;!&ndash;<li><a href="#" class="fa-google-plus"></a></li>&ndash;&gt;-->
+						<!--</ul>-->
+					<!--</div>-->
+					<!--<h3 class="wow fadeInDown delay-03s">Emil Manvelyan</h3>-->
+					<!--&lt;!&ndash;<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>&ndash;&gt;-->
+					<!--<p class="wow fadeInDown delay-03s" id="typeEmil"></p>-->
+				<!--</div>-->
+				<div class="team-leader-box">
+					<div class="team-leader wow fadeInDown delay-03s">
+						<div class="team-leader-shadow shadowRobert"><a href="#"></a></div>
+						<img src="img/robert.jpg" alt="">
+						<ul>
+							<!--<li><a href="#" class="fa-twitter"></a></li>-->
+							<!--<li><a href="#" class="fa-facebook"></a></li>-->
+							<!--<li><a href="#" class="fa-pinterest"></a></li>-->
+							<!--<li><a href="#" class="fa-google-plus"></a></li>-->
+						</ul>
+					</div>
+					<h3 class="wow fadeInDown delay-03s">Robert Hakobyan</h3>
+					<!--<span class="wow fadeInDown delay-03s">Chief Executive Officer</span>-->
+					<p class="wow fadeInDown delay-03s" id="typeRobert"></p>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -393,26 +596,26 @@
 					<div class="funfacts-counter white-text">
 						<div class="col-sm-3">
 							<i class="fa fa-trophy"></i>
-							<div class="statistic-counter">324</div>
-							<h3 class="statistic-text">Completed Projects</h3>
+							<div class="statistic-counter">195</div>
+							<div class="statistic-text">Completed Projects</div>
 
 						</div>
 						<div class="col-sm-3">
 							<i class="fa fa-group"></i>
-							<div class="statistic-counter">198</div>
+							<div class="statistic-counter">85</div>
 							<div class="statistic-text">Satisfied Clients</div>
 
 
 						</div>
 						<div class="col-sm-3">
 							<i class="fa fa-code"></i>
-							<div class="statistic-counter">972,147</div>
+							<div class="statistic-counter">989,147</div>
 							<div class="statistic-text">Line Of Code</div>
 
 						</div>
 						<div class="col-sm-3">
 							<i class="fa fa-coffee"></i>
-							<div class="statistic-counter">6349</div>
+							<div class="statistic-counter">32400</div>
 							<div class="statistic-text">Cup Of Coffee</div>
 
 						</div>
@@ -442,19 +645,19 @@
 				<div class="col-lg-6 col-sm-7 wow fadeInLeft">
 					<div class="contact-info-box address clearfix">
 						<h3><i class=" icon-map-marker"></i>Address:</h3>
-						<span>308 Negra Arroyo Lane<br>Albuquerque, New Mexico, 87111.</span>
+						<span>Garegin Njdeh 46<br>Armenia, Yerevan, 37461.</span>
 					</div>
 					<div class="contact-info-box phone clearfix">
 						<h3><i class="fa-phone"></i>Phone:</h3>
-						<span>1-800-BOO-YAHH</span>
+						<span>+374 55 222 111</span>
 					</div>
 					<div class="contact-info-box email clearfix">
 						<h3><i class="fa-pencil"></i>email:</h3>
-						<span>hello@knightstudios.com</span>
+						<span>info@smart-corner.org</span>
 					</div>
 					<div class="contact-info-box hours clearfix">
 						<h3><i class="fa-clock-o"></i>Hours:</h3>
-						<span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
+						<span><strong>Monday - Thursday:</strong> 9am - 8pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
 					</div>
 					<ul class="social-link">
 						<li class="twitter"><a href="#"><i class="fa-twitter"></i></a></li>
@@ -499,22 +702,21 @@
 		<div style="overflow:hidden;height:300px;width:100%;">
 			<div id="gmap_canvas" style="height:300px;width:100%;">
 				<!--<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>-->
-				<a class="google-map-code" href="http://www.zahnarzt-rosenheim.org" id="get-map-data">WebTech Systems</a>
+				<a class="google-map-code" href="http://www.zahnarzt-rosenheim.org" id="get-map-data">Smart Corner</a>
 			</div>
 		</div>
-		<script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(40.151256,44.50147830000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>WebTech Systems</b><br/>Garegin Njdeh 46<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+		<script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(40.151256,44.50147830000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>Smart Corner</b><br/>Garegin Njdeh 46<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 	</div>
 	<footer class="footer">
 		<div class="container">
-			<div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
+			<div class="text-center">
+				<a class="up-arrow" href="#header" data-toggle="tooltip" title="TO TOP">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+				</a><br>
+			</div>
+			<div class="footer-logo"><a href="#"><img src="img/origin-logo.png" alt=""></a></div>
 			<span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
 			<div class="credits">
-				<!--
-          All the links in the footer should remain intact. 
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
-        -->
 				<a href="https://bootstrapmade.com/bootstrap-agency-templates/">Bootstrap Agency Templates</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 			</div>
 		</div>
@@ -532,138 +734,6 @@
 
 		$(document).ready(function(e) {
 
-            $("#send").click(function(){
-                var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-
-                var name = $('#name');
-                var email = $('#email');
-                var subject = $('#subject');
-                var message = $('#messageSend');
-
-
-                if ( $("#displaymessage").css('display') == 'block' ){
-                    $("#displaymessage").css('display', 'none');
-                }
-
-
-				if(name.val() == ""){
-                    name.next().css('visibility', 'visible');
-                    name.next().html("The fild is require.");
-					name.parent().addClass( "has-error" )
-
-				} else {
-                    name.next().css('visibility', 'hidden');
-                    name.next().html("");
-                    name.parent().removeClass( "has-error" );
-				}
-				if(email.val() == ""){
-                    email.next().css('visibility', 'visible');
-                    email.next().html("The fild is require.");
-                    email.parent().addClass( "has-error" )
-
-                } else if( !emailReg.test(email.val() )){
-                    email.next().css('visibility', 'visible');
-                    email.next().html("This email not valid.");
-                    email.parent().addClass( "has-error" )
-				} else {
-                    email.next().css('visibility', 'hidden');
-                    email.next().html("");
-                    email.parent().removeClass( "has-error" );
-
-				}
-                if(subject.val() == ""){
-                    subject.next().css('visibility', 'visible');
-                    subject.next().html("The fild is require.");
-                    subject.parent().addClass( "has-error" )
-
-                } else{
-                    subject.next().css('visibility', 'hidden');
-                    subject.next().html("");
-                    subject.parent().removeClass( "has-error" );
-				}
-                if(message.val() == ""){
-                    message.next().css('visibility', 'visible');
-                    message.next().html("The fild is require.");
-                    message.parent().addClass( "has-error" )
-
-                } else {
-                    message.next().css('visibility', 'hidden');
-                    message.next().html("");
-                    message.parent().removeClass( "has-error" );
-				}
-
-				if(name.val() != "" && email.val() != "" && subject.val() != "" && message.val() != "" && emailReg.test(email.val())){
-
-
-                    if ( $("#displaymessage").css('display') == 'none' ){
-                        $("#displaymessage").css('display', 'block');
-
-                        $("#displaymessage").css('color', 'green');
-                    }
-
-                    name.val("");
-                    email.val("");
-                    subject.val("");
-                    message.val("");
-
-				}
-
-            });
-
-		 $('#typeWalter').typed({
-			$('.team-leader-shadow').mouseenter(function() {
-				//console.log($(this).parent().siblings('.typeP'));
-				$(this).parent().siblings('.typeP').typed({
-			    strings: [
-			    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat."
-			    ],
-			        typeSpeed: 50,
-			        backDelay: 1000,
-			        startDelay: 1200,
-			        loop: false,
-			        showCursor: false,
-			        loopCount: false
-			    })
-
-			});
-
-		 /*$('#typeWalter').typed({
-	    strings: [
-	    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat."
-	    ],
-	        typeSpeed: 50,
-	        backDelay: 1000,
-	        startDelay: 1200,
-	        loop: true,
-	        showCursor: false,
-	        loopCount: true       
-	    });
-
-		 $('#typeJesse').typed({
-	    strings: [
-	    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat."
-	    ],
-	        typeSpeed: 50,
-	        backDelay: 1000,
-	        startDelay: 1200,
-	        loop: true,
-	        showCursor: false, 
-	        loopCount: true       
-	    });
-
-		 $('#typeSkyler').typed({
-	    strings: [
-	    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat."
-	    ],
-	        typeSpeed: 50,
-	        backDelay: 1000,
-	        startDelay: 1200,
-	        loop: false,
-	        showCursor: false, 
-	        loopCount: true       
-	    });*/
-			
-
 			$('#test').scrollToFixed();
 			$('.res-nav_click').click(function() {
 				$('.main-nav').slideToggle();
@@ -671,12 +741,10 @@
 			});
 
 			$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-          event.preventDefault();
-          console.log('this happens', this);
-          $(this).ekkoLightbox();
-      });
-
-		});
+			  event.preventDefault();
+			  console.log('this happens', this);
+			  $(this).ekkoLightbox();
+		  	})
 	</script>
 
 	<script>
@@ -692,6 +760,348 @@
 		$(window).load(function() {
 			//$(".se-pre-con").fadeOut("slow");
 
+            $("#send").click(function(){
+                var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+
+                var name = $('#name');
+                var email = $('#email');
+                var subject = $('#subject');
+                var message = $('#messageSend');
+
+
+                if ( $("#displaymessage").css('display') == 'block' ){
+                    $("#displaymessage").css('display', 'none');
+                }
+
+
+                if(name.val() == ""){
+                    name.next().css('visibility', 'visible');
+                    name.next().html("The fild is require.");
+                    name.parent().addClass( "has-error" )
+
+                } else {
+                    name.next().css('visibility', 'hidden');
+                    name.next().html("");
+                    name.parent().removeClass( "has-error" );
+                }
+                if(email.val() == ""){
+                    email.next().css('visibility', 'visible');
+                    email.next().html("The fild is require.");
+                    email.parent().addClass( "has-error" )
+
+                } else if( !emailReg.test(email.val() )){
+                    email.next().css('visibility', 'visible');
+                    email.next().html("This email not valid.");
+                    email.parent().addClass( "has-error" )
+                } else {
+                    email.next().css('visibility', 'hidden');
+                    email.next().html("");
+                    email.parent().removeClass( "has-error" );
+
+                }
+                if(subject.val() == ""){
+                    subject.next().css('visibility', 'visible');
+                    subject.next().html("The fild is require.");
+                    subject.parent().addClass( "has-error" )
+
+                } else{
+                    subject.next().css('visibility', 'hidden');
+                    subject.next().html("");
+                    subject.parent().removeClass( "has-error" );
+                }
+                if(message.val() == ""){
+                    message.next().css('visibility', 'visible');
+                    message.next().html("The fild is require.");
+                    message.parent().addClass( "has-error" )
+
+                } else {
+                    message.next().css('visibility', 'hidden');
+                    message.next().html("");
+                    message.parent().removeClass( "has-error" );
+                }
+
+                if(name.val() != "" && email.val() != "" && subject.val() != "" && message.val() != "" && emailReg.test(email.val())){
+
+
+                    if ( $("#displaymessage").css('display') == 'none' ){
+                        $("#displaymessage").css('display', 'block');
+
+                        $("#displaymessage").css('color', 'green');
+                    }
+
+                    name.val("");
+                    email.val("");
+                    subject.val("");
+                    message.val("");
+
+                }
+
+            });
+
+
+
+			$('.shadowSasun').mouseenter(function() {
+			 	// console.log('mouse entered now');
+				//console.log($(this).parent().siblings('.typeP'));
+				$(this).parent().siblings('#typeSasun').typed({
+					strings: [
+						"CEO and Founder"
+					],
+					typeSpeed: 50,
+					backDelay: 1000,
+					startDelay: 1200,
+					loop: false,
+					showCursor: false,
+					loopCount: false
+				})
+
+			});
+            $('.shadowJulia').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeJulia').typed({
+                    strings: [
+                        "Project Manager"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+
+            });
+            $('.shadowHayk').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeHayk').typed({
+                    strings: [
+                        "Full Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+
+            });
+            $('.shadowSona').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeSona').typed({
+                    strings: [
+                        "MEAN Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+
+            });
+            $('.shadowArayik').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeArayik').typed({
+                    strings: [
+                        "Full Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+
+            });
+            $('.shadowNelly').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeNelly').typed({
+                    strings: [
+                        "Project Manager"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+
+            });
+            $('.shadowLilit').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeLilit').typed({
+                    strings: [
+                        "MERN Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+            $('.shadowHarut').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeHarut').typed({
+                    strings: [
+                        "Full Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+            $('.shadowElvira').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeElvira').typed({
+                    strings: [
+                        "Project Manager"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+            $('.shadowHayk-2').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeHayk-2').typed({
+                    strings: [
+                        "Full Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+            $('.shadowGevorg').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeGevorg').typed({
+                    strings: [
+                        "Full Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+            $('.shadowHayk-3').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeHayk-3').typed({
+                    strings: [
+                        "Full Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+            $('.shadowJora').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeJora').typed({
+                    strings: [
+                        "MEAN Stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+//            $('.shadowEmil').mouseenter(function() {
+//                // console.log('mouse entered now');
+//                //console.log($(this).parent().siblings('.typeP'));
+//                $(this).parent().siblings('#typeEmil').typed({
+//                    strings: [
+//                        "Web Designer"
+//                    ],
+//                    typeSpeed: 50,
+//                    backDelay: 1000,
+//                    startDelay: 1200,
+//                    loop: false,
+//                    showCursor: false,
+//                    loopCount: false
+//                })
+//            });
+            $('.shadowRobert').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeRobert').typed({
+                    strings: [
+                        "Junior Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+
+            $('.shadowYuri').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeYuri').typed({
+                    strings: [
+                        "MEAN stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
+            $('.shadowStefany').mouseenter(function() {
+                // console.log('mouse entered now');
+                //console.log($(this).parent().siblings('.typeP'));
+                $(this).parent().siblings('#typeStefany').typed({
+                    strings: [
+                        "MEAN stack Developer"
+                    ],
+                    typeSpeed: 50,
+                    backDelay: 1000,
+                    startDelay: 1200,
+                    loop: false,
+                    showCursor: false,
+                    loopCount: false
+                })
+            });
 
 
 			$('.main-nav li a, .servicelink').bind('click', function(event) {
@@ -758,6 +1168,33 @@
 				});
 				return false;
 			});
+
+
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Add smooth scrolling to all links in navbar + footer link
+            $("footer a[href='#header']").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = "";
+                    });
+                } // End if
+            });
 
 		});
 	</script>
