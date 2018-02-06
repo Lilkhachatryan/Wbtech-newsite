@@ -10,6 +10,8 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
+	.main-nav li a{ padding:14px 30px;}
+
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
 
 }
@@ -19,7 +21,7 @@
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
 	.header h1{ font-size:46px;}
-	.main-nav ul li a{ padding:14px;}
+	.main-nav ul li a{ padding:14px 0;}
 	.small-logo{ padding:0 20px;}
 	h2{ font-size:30px}
 	h6{ font-size:16px;}
@@ -35,7 +37,7 @@
 	.social-link{ margin:0;}
 
 	.main-nav{ display:block !important; }
-	.main-nav li a{ padding:8px 15px;}
+
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
 
@@ -53,7 +55,10 @@
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
-	.header{ padding:60px 0;}
+	.header{ padding:0;}
+	#nokey{visibility: hidden;}
+	/*#nokey2{visibility: hidden;}*/
+
 	.main-section{ padding:60px 0 70px;}
 	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
 	.main-nav li{ display:block;}
@@ -95,7 +100,8 @@
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
 	.contact-info-box{ margin-left:0px;}
-	.header{ padding:40px;}
+	.header{ padding:0;}
+	.first-section-logo h3{font-size: 16px}
 	.social-link{ margin-left:0px;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
