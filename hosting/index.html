@@ -74,12 +74,11 @@
     <ul class="we-create animated fadeInUp delay-1s sss">
         <li><h3>Define the future</h3></li>
     </ul>
-
     <!--</div>-->
 </header>
 <!--header-end-->
 
-<nav class="navbar navbar-default navbar-fixed-top  nav-colors" id="test" >
+<nav class="navbar navbar-default navbar-fixed-top  nav-colors navbar_color" id="test" >
     <!--main-nav-start    ///  navbar navbar-default navbar-fixed-top-->
     <div class="container-fluid">
         <div class="navbar-header">
@@ -87,7 +86,7 @@
                 <a href="#service" class="animated fadeInUp delay-1s servicelink"><img src="img/mainLogo.png" alt="" ></a>
             </figure>
         </div>
-        <ul class="main-nav navbar-right ">
+        <ul class="main-nav  navbar-right ">
 
 
             <!--<li class="small-logo"><a href="#header"><img src="img/origin-logo.png" alt="" height="100" width="200"></a></li>-->
@@ -100,7 +99,7 @@
             <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+        <a class="res-nav_click nav_bar_menu" href="#"><i class="fa-bars"></i></a>
     </div>
 </nav>
 <!--main-nav-end-->
@@ -221,7 +220,7 @@
     </div>
 
 
-    <div class="portfolioContainer wow fadeInUp delay-04s">
+    <div class="portfolioContainer wow fadeInUp delay-04s " >
         <div class=" Portfolio-box printdesign gallery">
             <a href="img/Portfolio-pic1.jpg"><img src="img/Portfolio-pic1.jpg"></a>
             <h3>Foto Album</h3>
@@ -318,9 +317,9 @@
 <!--main-section client-part-end-->
 
 <!--c-logo-part-end-->
-<section class="main-section team" id="team">
+<section class="main-section team " id="team">
     <!--main-section team-start-->
-    <div class="container">
+    <div class="container-fluid">
         <h2>team</h2>
         <h6>Take a closer look into our amazing team. We won’t bite.</h6>
         <div class="team-leader-block clearfix">
@@ -708,6 +707,7 @@ business-talking-end-->
 
         </div>
         <script>
+
             function myMap() {
                 var myCenter = new google.maps.LatLng(40.151256, 44.50147830000003);
                 var mapCanvas = document.getElementById("gmap_canvas");

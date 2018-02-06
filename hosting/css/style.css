@@ -232,6 +232,7 @@ color: #fff;
 	color:#fff !important;
 }
 
+
 /* Navigation
 ---------------------------------*/
 .main-nav-outer{
@@ -1043,3 +1044,73 @@ FUNFACT
 	box-shadow: 0 28px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+@media screen and (max-width: 500px) {
+	header {
+		padding: 0 !important;
+	}
+	header .mainLogo {
+		width: 180px;
+		height: 120px;
+		left: 27.5% !important;
+		top: 30% !important;
+
+	}
+	.nav_bar_menu{
+		float: right;
+		margin-top: 10px;
+	}
+	.navbar_color {
+		background-color: rgba(999,999,999,0.3) !important;
+	}
+	.main-nav {
+		margin-top: -16px !important;
+	}
+	.sss {
+		display: none;
+	}
+	#nokey {
+		visibility: hidden;
+	}
+}
+@media only screen
+and (min-device-width: 501px)
+and (max-device-width: 766px) {
+	#nokey {
+		visibility: hidden;
+	}
+	header {
+		padding: 0 !important;
+	}
+	header .mainLogo {
+		width: 240px;
+		height: 160px;
+		left: 35% !important;
+		top: 33% !important;
+
+	}
+	.nav_bar_menu{
+		float: right;
+		margin-top: 10px;
+	}
+	.navbar_color {
+		background-color: rgba(999,999,999,0.3) !important;
+	}
+	.main-nav {
+		margin-top: -16px !important;
+	}
+	.sss {
+		display: none;
+	}
+}
+@media only screen
+and (min-device-width: 767px)
+and (max-device-width: 990px) {
+	.main-nav li a{
+		font-size: 12px !important;
+		padding: 0px !important;
+	}
+	.sss {
+		display: none;
+	}
+
+}
